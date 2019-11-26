@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public void bt_tocoloe(View view) {
         int num = 15;
         tv_test.setText("修复成功="+num);
-       // tv_test.setText(num);
+      //  tv_test.setText(num);
     }
 }
