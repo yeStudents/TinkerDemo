@@ -18,7 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void bt_tocoloe(View view) {
         int num = 15;
-       tv_test.setText("修复成功="+num);
-      //  tv_test.setText(num);
+
+ /*       //9.0-base 制造bug的方法
+        tv_test.setText(num);*/
+
+
+        //10.0-patch 修复bug
+        tv_test.setText("修复成功="+num);
     }
 }
