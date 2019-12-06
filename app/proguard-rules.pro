@@ -25,6 +25,3 @@
 # tinker混淆规则
 -dontwarn com.tencent.tinker.**
 -keep class com.tencent.tinker.** { *; }
-#如果您使用了support-v4包，您还需要配置以下替代规则
-
- -keep class android.support.**{*;}

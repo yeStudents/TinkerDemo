@@ -11,7 +11,7 @@ import androidx.multidex.MultiDex;
 
 import com.tencent.bugly.Bugly;
 import com.tencent.bugly.beta.Beta;
-import com.tencent.tinker.loader.app.DefaultApplicationLike;
+import com.tencent.tinker.entry.DefaultApplicationLike;
 
 
 public class SampleApplicationLike extends DefaultApplicationLike {
