@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         int num = 15;
 
         //9.0-base 制造bug的方法
-        //tv_test.setText(num);
+      // tv_test.setText(num);
 
         //10.0-patch 修复bug
        tv_test.setText("修复成功="+num);
